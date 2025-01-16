@@ -16,7 +16,6 @@ p {
 .container {
     padding: 0 15px;
 max-width: 1158px;
-
     margin-left:auto;
     margin-right:auto;
 }
@@ -111,7 +110,7 @@ header{
 }
 
 .navigation{
-
+    padding: 0 15px;
     align-items: center;
     max-width: 471px;
     display: flex;
@@ -222,14 +221,25 @@ cursor: pointer;
     padding: 120px 0;
 }
 .feature-invisible{
-    visibility: hidden;
-    font-size: 36px;
-    line-height:1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
+/*.feature-invisible{*/
+/*    visibility: hidden;*/
+/*    font-size: 36px;*/
+/*    line-height:1.11;*/
+/*    text-align: center;*/
+/*    letter-spacing: 0.02em;*/
+/*    text-transform: capitalize;*/
+/*    color: #2e2f42;*/
+/*}*/
 
 .feature-zag{
     line-height: 1.2;
