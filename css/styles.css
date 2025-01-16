@@ -59,6 +59,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none; /* Убирает подчеркивание */
+    margin-right: 76px
 }
 /* Стили для span внутри логотипа */
 .logo-span {
@@ -88,8 +89,10 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 header{
+    padding: 0 15px;
     border-bottom:1px solid #E7E9FC;
 }
 .navigation-link:hover{
@@ -109,15 +112,17 @@ header{
 }
 
 .navigation{
-
+    gap: 40px;
+    align-items: center;
     max-width: 471px;
     display: flex;
 }
 .navigation-list{
     display: flex;
-padding-left:76px ;
+/*padding-left:76px ;*/
     list-style-type: none;
    margin: 0;
+    padding: 24px 0;
 }
 .navigation-list li:not(:last-child){
     padding-right: 40px;
@@ -142,7 +147,7 @@ padding-left:76px ;
 }
 .address-list{
     display: flex;
-
+    gap: 40px;
     list-style-type: none;
 }
 .address-item {
@@ -213,7 +218,9 @@ cursor: pointer;
     margin-bottom: 48px;
 }
 /* Feature section styles */
-
+.section-feature{
+    padding: 120px 0;
+}
 .feature-invisible{
     visibility: hidden;
     font-size: 36px;
@@ -230,6 +237,7 @@ cursor: pointer;
     font-weight:500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 .feature-text{
     line-height: 1.5;
@@ -244,8 +252,9 @@ cursor: pointer;
 }
 .feature-list{
     display: flex;
-padding-top:120px;
-    padding-bottom: 120px;
+/*padding-top:120px;*/
+/*    padding-bottom: 120px;*/
+    gap: 24px;
 }
 .feature-list li:not(:last-child) {
     padding-right: 24px;
