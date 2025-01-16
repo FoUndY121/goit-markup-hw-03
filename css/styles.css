@@ -84,7 +84,7 @@ p {
 
 /* Стили для меню */
 header .container{
-
+    padding:24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,6 +109,7 @@ header{
 }
 
 .navigation{
+
     max-width: 471px;
     display: flex;
 }
@@ -259,13 +260,16 @@ padding-top:120px;
 .feature-zag{
     padding-bottom: 8px;
 }
+
+
+
+
+
 /*OUR TEAM*/
 .our-team{
     list-style-type: none;
 }
-/*.section-team > li >img{*/
-/*    background-color: #FFFFFF;*/
-/*!*}*! 8px*/
+
 
 .team-list{
     display: flex;
@@ -279,12 +283,13 @@ padding-top:120px;
     padding: 32px 0;
     text-align: center;
 
+
 }
 .section-team .container{
     padding-top:120px;
     padding-bottom:120px ;
 }
-.cart{
+.h_cart{
 margin-bottom: 8px;
     /*display: flex;*/
     /*padding-top: 32px;*/
@@ -306,6 +311,7 @@ margin-bottom: 8px;
 
 .section-team {
     background-color:  #F4F4FD;
+
 }
 .team-item{
     background-color: #FFFFFF;
@@ -314,8 +320,21 @@ margin-bottom: 8px;
 }
 
 /*SECTION PORTFOLIO*/
+.portfolio-list{
+    display: flex;
+   flex-wrap: wrap;
+    gap: 24px;
 
-.cart{
+/*justify-content: center;*/}
+
+.portfolio-cart .content-item{
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding-left: 16px;
+}
+.h_cart{
+
     font-weight: 500;
     color: #2e2f42;
     line-height: 1.2;
@@ -333,9 +352,20 @@ margin-bottom: 8px;
 .portfolio-item{
     background-color: #FFFFFF;
 }
+.section-portfolio{
+    margin: 120px 0;
+}
+
+.portfolio-cart .h_cart,
+.portfolio-cart .p_cart{
+    display: flex;
+    margin-right: auto;
+
+}
 
 /* Footer styles */
 .footer {
+    margin-right: auto;
     font-size: 16px;
     color: white;
     background-color: #2e2f42;
@@ -353,13 +383,19 @@ margin-bottom: 8px;
     text-decoration: none;
 }
 
+
 .logo-span-footer {
     color: #f4f4fd;
 }
 
 .footer-text{
+    width: 264px;
+    margin-top: 16px;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     line-height: 1.5;
+}
+.footer .container{
+    padding: 100px 0;
 }
