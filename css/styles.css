@@ -39,7 +39,9 @@ img {
     margin: 0;
     padding: 0;
 }
-
+.button-button{
+    padding: 0;
+}
 
 
 /* General styles */
@@ -165,10 +167,17 @@ padding-left:76px ;
 /*!* Button section styles *!*/
 
 .button {
+    padding: 188px  0;
     text-align: center;
     background-color: #2e2f42;
+
 }
+
 .button-button{
+    height:56px ;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -176,7 +185,9 @@ padding-left:76px ;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+
 }
+
 .button-button:focus{
     background-color: #404BBF;
     cursor: pointer;
@@ -186,11 +197,12 @@ padding-left:76px ;
     cursor: pointer;
 }
 .button-zag {
-
+    max-width: 496px;
     letter-spacing: 0.02em;
     line-height: 1.07;
     font-size: 56px;
     color: white;
+    margin-bottom: 48px;
 }
 /* Feature section styles */
 .our-team-zag{
@@ -209,6 +221,13 @@ padding-left:76px ;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.button .container{
+
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-zag{
@@ -291,6 +310,7 @@ margin-bottom: 8px;
 .team-item{
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 /*SECTION PORTFOLIO*/
