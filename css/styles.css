@@ -1,70 +1,52 @@
-/* Header styles */
+/* General styles */
+/* General styles */
+/* General styles */
+/* General styles */
 body {
-    font-family: 'Raleway', sans-serif; /* Основной шрифт */
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
 }
-
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Для заголовков */
-    font-weight: 700; /* Жирность */
-}
-
 p {
-    font-family: 'Raleway', sans-serif; /* Для текста */
-    font-weight: 400; /* Обычная жирность */
-}
-.links{
+    margin: 0;
+    padding: 0;
 
     font-size: 16px;
-    line-height:1.5;
-    letter-spacing:0.02em;
-    color: #2e2f42;
-    font-weight: 500;
 }
-.links:hover{
-    color: #404bbf;
+.container {
+
+max-width: 1158px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
 }
-.links:focus{
-    color: #404bbf;
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-.header-link:hover:focus{
-    cursor:pointer;
-    color: #404bbf;
+a {
+    text-decoration: none; /* Убирает подчеркивание */
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
-/*.header-link,*/
-/*.header-info li {*/
-/*    list-style-type: none;*/
-/*    font-style: normal*/
-/*}*/
-.kontacti{
-    font-style: normal
-}
-.header-link:hover:focus{
-    color: #404bbf;
-}
-.header-info{
-    font-style: normal
-}
-.header-info:focus{
-    color:#404bbf;
-}
-.header-info:hover{
-    color: #404bbf;
 
-}
 
-.kontacti{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-.kontacti:focus{
-    color: #404bbf;
-}
-.kontacti:hover{
-    color: #404bbf;
-}
+/* General styles */
+/* General styles */
+/* General styles */
+/* General styles */
+
 /* Стили для логотипа */
 .logo-header {
     font-family: "Raleway", sans-serif;
@@ -80,34 +62,108 @@ p {
 .logo-span {
     color: #2e2f42;
 }
-.header-info {
-    font-style: normal;
+
+/* Header styles */
+/* Header styles */
+/* Header styles */
+body {
+    font-family: 'Raleway', sans-serif; /* Основной шрифт */
 }
-.contact-link {
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Для заголовков */
+    font-weight: 700; /* Жирность */
+}
+
+p {
+    font-family: 'Raleway', sans-serif; /* Для текста */
+    font-weight: 400; /* Обычная жирность */
+}
+
+/* Стили для меню */
+header .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    border-bottom:1px solid #E7E9FC;
+}
+.navigation-link:hover{
+    color: #404bbf;
+}
+.navigation-link:focus{
+    color: #404bbf;
+}
+.navigation-link{
+
+
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.navigation{
+    max-width: 471px;
+    display: flex;
+}
+.navigation-list{
+    display: flex;
+padding-left:76px ;
+    list-style-type: none;
+   margin: 0;
+}
+.navigation-list li:not(:last-child){
+    padding-right: 40px;
+}
+
+
+
+
+  /*хедер мени андресса гмеил и номер телефона*/
+
+
+.address:focus{
+    color:#404bbf;
+}
+.address:hover{
+    color: #404bbf;
+
+}
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+.address-list{
+    display: flex;
+
+    list-style-type: none;
+}
+.address-item {
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.address{
+    display: flex;
+    justify-content: flex-end;
 
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
+    font-style: normal
 }
-/* General styles */
-body {
-    color: #434455;
-    background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-}
-p {
-    font-size: 16px;
+.address-list li:not(:last-child){
+    padding-right: 40px;
 }
 /*!* Button section styles *!*/
-/*.button:focus:hover{*/
-/*    background-color: #404BBF;*/
-/*    cursor: pointer;*/
-/*}*/
+/*!* Button section styles *!*/
+/*!* Button section styles *!*/
+/*!* Button section styles *!*/
+/*!* Button section styles *!*/
+
 .button {
     text-align: center;
     background-color: #2e2f42;
@@ -137,7 +193,7 @@ p {
     color: white;
 }
 /* Feature section styles */
-.feature{
+.our-team-zag{
     font-size: 36px;
     line-height:1.11;
     text-align: center;
@@ -145,14 +201,24 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.zag-feature{
+.feature-invisible{
+    visibility: hidden;
+    font-size: 36px;
+    line-height:1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.feature-zag{
     line-height: 1.2;
     font-size: 20px;
     font-weight:500;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.paragraf{
+.feature-text{
     line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
@@ -163,21 +229,68 @@ p {
     list-style-type: none;
     font-size: 16px;
 }
-
+.feature-list{
+    display: flex;
+padding-top:120px;
+    padding-bottom: 120px;
+}
+.feature-list li:not(:last-child) {
+    padding-right: 24px;
+}
+.feature-zag{
+    padding-bottom: 8px;
+}
 /*OUR TEAM*/
 .our-team{
     list-style-type: none;
 }
 /*.section-team > li >img{*/
 /*    background-color: #FFFFFF;*/
-/*}*/
+/*!*}*! 8px*/
+
+.team-list{
+    display: flex;
+    gap: 24px;
+
+
+/*    padding-top: 72px;*/
+
+}
+.content-item{
+    padding: 32px 0;
+    text-align: center;
+
+}
+.section-team .container{
+    padding-top:120px;
+    padding-bottom:120px ;
+}
+.cart{
+margin-bottom: 8px;
+    /*display: flex;*/
+    /*padding-top: 32px;*/
+    /*padding-bottom: 8px;*/
+    /*justify-content: center;*/
+}
+.p_cart{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*!*padding-bottom:32px;*!*/
+
+}
+.our-team-zag {
+    margin-bottom: 72px;
+}
+
+
 
 
 .section-team {
     background-color:  #F4F4FD;
 }
-.teamimg{
+.team-item{
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 /*SECTION PORTFOLIO*/
@@ -197,7 +310,7 @@ p {
     line-height: 1.5;
     font-weight: 400;
 }
-.img-portfolio{
+.portfolio-item{
     background-color: #FFFFFF;
 }
 
@@ -219,9 +332,11 @@ p {
     color: #4d5ae5;
     text-decoration: none;
 }
+
 .logo-span-footer {
     color: #f4f4fd;
 }
+
 .footer-text{
     font-size: 16px;
     letter-spacing: 0.02em;
