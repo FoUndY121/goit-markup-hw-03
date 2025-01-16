@@ -186,7 +186,14 @@ padding-left:76px ;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+cursor: pointer;
+}
+.button .container{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-button:focus{
@@ -206,14 +213,7 @@ padding-left:76px ;
     margin-bottom: 48px;
 }
 /* Feature section styles */
-.our-team-zag{
-    font-size: 36px;
-    line-height:1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
+
 .feature-invisible{
     visibility: hidden;
     font-size: 36px;
@@ -222,13 +222,6 @@ padding-left:76px ;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-.button .container{
-
-    display: flex;
-  flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .feature-zag{
@@ -269,7 +262,14 @@ padding-top:120px;
 .our-team{
     list-style-type: none;
 }
-
+.our-team-zag{
+    font-size: 36px;
+    line-height:1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .team-list{
     display: flex;
@@ -310,6 +310,7 @@ margin-bottom: 8px;
 
 
 .section-team {
+    padding: 120px 0;
     background-color:  #F4F4FD;
 
 }
@@ -324,14 +325,14 @@ margin-bottom: 8px;
     display: flex;
    flex-wrap: wrap;
     gap: 24px;
-
+    row-gap: 48px;
 /*justify-content: center;*/}
 
 .portfolio-cart .content-item{
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    padding-left: 16px;
+    padding: 32px 16px
 }
 .h_cart{
 
@@ -353,7 +354,7 @@ margin-bottom: 8px;
     background-color: #FFFFFF;
 }
 .section-portfolio{
-    margin: 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-cart .h_cart,
@@ -369,10 +370,12 @@ margin-bottom: 8px;
     font-size: 16px;
     color: white;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
-
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -395,7 +398,4 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     line-height: 1.5;
-}
-.footer .container{
-    padding: 100px 0;
 }
