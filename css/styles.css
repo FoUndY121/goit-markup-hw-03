@@ -90,7 +90,7 @@ header .container{
     padding:24px 0;
 }
 header{
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     border-bottom:1px solid #E7E9FC;
 }
 .navigation-link:hover{
@@ -110,7 +110,7 @@ header{
 }
 
 .navigation{
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     align-items: center;
     max-width: 471px;
     display: flex;
