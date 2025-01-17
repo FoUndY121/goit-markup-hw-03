@@ -352,6 +352,9 @@ margin-bottom: 8px;
 }
 
 /*SECTION PORTFOLIO*/
+.section-portfolio .container{
+    padding: 0 15px;
+}
 .portfolio-list{
     display: flex;
    flex-wrap: wrap;
@@ -373,6 +376,10 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     font-size: 20px;
 }
+.portfolio-cart{
+    width: calc((100% - 48px) / 3 );
+}
+
 .p_cart{
 
     font-size: 16px;
