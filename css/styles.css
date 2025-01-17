@@ -38,6 +38,7 @@ img {
     display: block;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 .button-button{
     padding: 0;
@@ -295,7 +296,12 @@ cursor: pointer;
     text-transform: capitalize;
     color: #2e2f42;
 }
-
+.section-team .container{
+    padding: 0 15px;
+}
+.team-item{
+    width:calc((100% - 72px) / 4 );
+}
 .team-list{
     display: flex;
     gap: 24px;
