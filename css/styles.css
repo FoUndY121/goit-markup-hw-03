@@ -73,17 +73,17 @@ img {
 /* Header styles */
 /* Header styles */
 /* Header styles */
-body {
-    font-family: 'Raleway', sans-serif; /* Основной шрифт */
-}
+/*body {*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
 
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Для заголовков */
+
     font-weight: 700; /* Жирность */
 }
 
 p {
-    font-family: 'Raleway', sans-serif; /* Для текста */
+
     font-weight: 400; /* Обычная жирность */
 }
 
